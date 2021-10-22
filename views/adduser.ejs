@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title><%= title %></title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/adduser.css">
+</head>
+<body>
+  <%- include('./partials/nav.ejs') %>
+  <form id="post-form" method="post">
+    <div class="form-info">
+      <label>User name
+        <input type="text" name="username">
+      </label>
+      <label>First name
+        <input type="text" name="firstName">
+      </label>
+      <label>Second name
+        <input type="text" name="secondName"></input>
+      </label>
+      <label>Age
+        <input type="number" name="age"></input>
+      </label>
+    </div>
+    <div class="form-button">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</body>
+</html>

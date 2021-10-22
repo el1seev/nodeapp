@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(69, 75, 75);
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+h1{
+    color: #fff;
+}
+p{
+    color:#fff;
+    margin-top: 0px;
+    font-size: 40px;
+}
